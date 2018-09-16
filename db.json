@@ -33,120 +33,27 @@
   ],
   "cart": [
     {
-      "id": "1",
-      "quantity": 2,
-      "name": "Трусы",
-      "price": "255"
-    },
-    {
-      "id": "4",
-      "quantity": 1,
-      "name": "Шапки",
-      "price": "567"
-    },
-    {
       "id": "3",
-      "quantity": 4,
+      "quantity": 2,
       "name": "Носки",
       "price": "150"
     }
   ],
   "feedback": [
     {
+      "text": "Первый коммент\n",
       "id": 1,
-      "text": "blabla bla"
+      "status": "decline"
     },
     {
+      "text": "sdgsg",
       "id": 2,
-      "text": "bla bla blabla bla"
+      "status": "decline"
     },
     {
+      "text": "gdfg",
       "id": 3,
-      "text": "blablabla bla bla"
-    },
-    {
-      "id": 4,
-      "text": "bla blablabla bla"
-    },
-    {
-      "text": "dsfsd",
-      "id": 5
-    },
-    {
-      "text": "fdf",
-      "id": 6
-    },
-    {
-      "text": "fdfgghg",
-      "id": 7
-    },
-    {
-      "text": "4366",
-      "id": 8
-    },
-    {
-      "text": "4366dfhdhf",
-      "id": 9
-    },
-    {
-      "text": "sdggdsgsd",
-      "id": 10
-    }
-  ],
-  "approved": [
-    {
-      "text": "dsfsdApproveDecline",
-      "id": 1
-    },
-    {
-      "text": "blablabla bla blaApproveDecline",
-      "id": 2
-    },
-    {
-      "text": "blablabla bla blaApproveDecline",
-      "id": 3
-    },
-    {
-      "text": "dsfsdApproveDecline",
-      "id": 4
-    },
-    {
-      "text": "fdfgghgApproveDecline",
-      "id": 5
-    },
-    {
-      "text": "blablabla bla blaApproveDecline",
-      "id": 6
-    },
-    {
-      "text": "fdfgghgApproveDecline",
-      "id": 7
-    },
-    {
-      "text": "blablabla bla blaApproveDecline",
-      "id": 8
-    },
-    {
-      "text": "fdfgghgApproveDecline",
-      "id": 9
-    }
-  ],
-  "declined": [
-    {
-      "text": "dsfsdApproveDecline",
-      "id": 1
-    },
-    {
-      "text": "4366dfhdhfApproveDecline",
-      "id": 2
-    },
-    {
-      "text": "dsfsdApproveDecline",
-      "id": 3
-    },
-    {
-      "text": "4366dfhdhfApproveDecline",
-      "id": 4
+      "status": "decline"
     }
   ]
 }

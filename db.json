@@ -43,7 +43,7 @@
     {
       "text": "Первый коммент\n",
       "id": 1,
-      "status": "decline"
+      "status": "approve"
     },
     {
       "text": "sdgsg",
@@ -53,7 +53,7 @@
     {
       "text": "gdfg",
       "id": 3,
-      "status": "decline"
+      "status": "approve"
     }
   ]
 }

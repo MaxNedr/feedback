@@ -78,7 +78,7 @@ function buildTextButton() {
 
         });
         $('#feedback').on('click', '.approved_button', function (ev) {
-            var $textComment = ev.target;
+
             var id = $(ev.target).parent().attr('id');
             $.ajax({
                 url: 'http://localhost:3000/feedback/' + id,
@@ -92,14 +92,12 @@ function buildTextButton() {
                 }),
                 success: function () {
 
-                    $textComment.parentElement.className = "approved";
+                    buildFeedback();
                 }
             })
         });
         $('#feedback').on('click', '.declined_button', function (ev) {
-            var $delete = $('<button />').attr('class', 'delete_button');
-            $delete.text('Delete');
-            var $textComment = ev.target;
+
             var id = $(ev.target).parent().attr('id');
             $.ajax({
                 url: 'http://localhost:3000/feedback/' + id,
@@ -113,8 +111,8 @@ function buildTextButton() {
                 }),
                 success: function () {
 
-                    $textComment.parentElement.className = "declined";
-                    $(ev.target).parent().append($delete)
+                    buildFeedback();
+
                 }
             })
         });
